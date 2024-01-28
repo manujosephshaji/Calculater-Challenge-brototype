@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/calculater.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container"> 
+        <div class="calc-container">
+
+         <div class="output">
+            <input type="text" id="screen">
+         </div>
+         <div class="buttons">   
+            <button onclick="clearClick()" class="btn">c</button>
+         <div class="row">
+          <button onclick="buttonClick(7)" class="btn">7</button>
+          <button onclick="buttonClick(8)" class="btn">8</button>
+          <button onclick="buttonClick(9)" class="btn">9</button>
+          <button onclick="buttonClick('/')" class="btn">
+            <img src="./images/division.png" alt=""></button>
+         </div>
+
+         <div class="row">
+            <button onclick="buttonClick(4)" class="btn">4</button>
+            <button onclick="buttonClick(5)" class="btn">5</button>
+            <button onclick="buttonClick(6)" class="btn">6</button>
+            <button onclick="buttonClick('*')" class="btn">
+                <img src="./images/multiplication.png" alt="icon-multiplication"></button>
+           </div>
+
+           <div class="row">
+            <button onclick="buttonClick(1)" class="btn">1</button>
+            <button onclick="buttonClick(2)" class="btn">2</button>
+            <button onclick="buttonClick(3)" class="btn">3</button>
+            <button onclick="buttonClick('-')" class="btn">
+                <img src="./images/minus.png" alt="icon-minus"></button>
+           </div>
+
+           <div class="row">
+            <button onclick="buttonClick('.')" class="btn">.</button>
+            <button onclick="buttonClick(0)" class="btn">0</button>
+            <button onclick="buttonClick('+')" class="btn">
+                <img src="images/plus.png" alt="icon-plus"></button>
+            <button onclick="equalClick()" class="btn">
+                <img src="./images/equality.png" alt="icon-equlity"></button>
+           </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://brototype.com/" target="_blank">
+          Brototype</a>. 
+        Coded by <a href="https://github.com/manujosephshaji?tab=repositories" arget="_blank">
+          Manu Joseph Shaji.</a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
