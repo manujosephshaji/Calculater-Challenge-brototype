@@ -46,6 +46,9 @@ img{
     width: 45px;
 
 }
+.btn img{
+    margin-bottom: -8px;
+}
 .attribution{
     margin-top: 10px;
     font-family: 'Bebas Neue', sans-serif;
