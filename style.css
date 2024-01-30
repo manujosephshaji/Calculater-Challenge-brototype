@@ -59,9 +59,19 @@ img{
     color: black;
 }
 @media (max-width:660px){
-    .main-container{
-        height: 100vh;
+     .main-container{
         background: url("./images/BG-image-2.jpg");
+    }
+   .calc-container{
+    padding: 15px;
+
+   }
+   .btn{
+    width: 3rem;
+   }
+   
+    .btn img{
+        margin-left: -4px;
     }
    
 }
